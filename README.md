@@ -20,13 +20,12 @@ Users can enter a single tweet for instant sentiment analysis or upload a CSV fi
 git clone https://github.com/AnuragSingh1104/Tweets-Sentiment-Analysis.git
 cd Tweets-Sentiment-Analysis
 
-text
 
 ### 2. Install dependencies
 pip install -r requirements.txt
 pip install streamlit
 
-text
+
 
 ---
 
@@ -36,7 +35,7 @@ text
 Run the Streamlit application with:
 streamlit run app.py
 
-text
+
 This command will start a local server and open the app in your web browser.
 
 ### How to use the app
@@ -58,13 +57,14 @@ This command will start a local server and open the app in your web browser.
 
 ## Project Structure
 /
+
 ├── app.py # Main Streamlit application script
 ├── requirements.txt # List of Python dependencies
 ├── data/ # (Optional) Sample CSV data files
 ├── utils.py # (Optional) Helper functions for text processing
 └── README.md # This README file
 
-text
+
 
 ---
 
@@ -87,7 +87,7 @@ This project is licensed under the MIT License.
 
 ---
 
-*(Optionally, you can add screenshots or GIFs of your app here to show the interface and visualizations.)*
+
 
 
 

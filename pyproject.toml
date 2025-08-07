@@ -1,0 +1,15 @@
+[project]
+name = "twitter-sentiment-analysis-ananlysis"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "emoji>=2.14.1",
+    "nltk>=3.9.1",
+    "pandas>=2.3.1",
+    "seaborn>=0.13.2",
+    "streamlit>=1.48.0",
+    "vadersentiment>=3.3.2",
+    "wordcloud>=1.9.4",
+]

@@ -55,23 +55,6 @@ This command will start a local server and open the app in your web browser.
 
 ---
 
-## Project Structure
-/ (root)
-├── app.py                  # Main Streamlit app script
-├── main.py                 # Model prediction and orchestration
-├── src/
-│   ├── text_clean.py       # Preprocessing and cleaning functions
-│   └── prediction_visualization.py  # Sentiment scoring & plotting
-├── notebook/
-│   └── sentiment analysis.ipynb     # Data exploration & experiments
-├── twitter_validation.csv  # Sample CSV for testing
-├── requirements.txt        # Python dependencies
-├── pyproject.toml          # Optional: UV/Poetry support
-└── README.md          
-
-
----
-
 ## Notes
 
 - Ensure you have Python 3 installed.
@@ -90,6 +73,7 @@ Contributions and suggestions are welcome. Please fork the repo, create a branch
 This project is licensed under the MIT License.
 
 ---
+
 
 
 

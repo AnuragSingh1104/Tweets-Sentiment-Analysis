@@ -24,94 +24,27 @@ The core is a **web app built with Streamlit**, allowing users to input a single
 
 
 
-*(You can add screenshots or GIFs here)*
-
-
-1. Clone the Repository
-bash
-Copy
-Edit
-git clone https://github.com/AnuragSingh1104/Tweets-Sentiment-Analysis.git
-cd Tweets-Sentiment-Analysis
-2. Create and Activate Virtual Environment (Optional but Recommended)
-bash
-Copy
-Edit
-# Using venv
+# Create environment
 python -m venv venv
-# On Windows
+
+# Activate on Windows
 venv\Scripts\activate
-# On macOS/Linux
+
+# Activate on macOS/Linux
 source venv/bin/activate
-3. Install Dependencies
-bash
-Copy
-Edit
+
 pip install -r requirements.txt
-# Or if not in the requirements.txt already
-pip install streamlit
-▶️ How to Use
-🚀 Run the App
-bash
-Copy
-Edit
-streamlit run app.py
-This command will start a local Streamlit server and open the app in your default browser.
 
-🧪 Interact with the App
-Single Tweet Mode:
-Paste or type a tweet in the text box to analyze its sentiment.
+# Or install individually
+pip install streamlit pandas numpy matplotlib seaborn nltk
+pip install -r requirements.txt
 
-Batch Mode (CSV Upload):
-Upload a .csv file containing tweets in one column. The app will process all tweets and display results, including:
+# Or install individually
+pip install streamlit pandas numpy matplotlib seaborn nltk
 
-Sentiment table
-
-Bar and pie chart distribution
-
-Word clouds per sentiment
-
-Top keywords per category
-
-🧰 Technologies Used
-Python 3 – Core programming language
-
-Streamlit – Interactive web application framework
-
-NLTK VADER – Lexicon-based sentiment analysis engine
-
-Pandas – Data manipulation and CSV handling
-
-Matplotlib / Seaborn – Data visualization
-
-NumPy – Numerical operations
-
-re – Regular expressions for text cleaning
-
-📁 Project Structure
-graphql
-Copy
-Edit
-/ (root)
-├── app.py                  # Main Streamlit app script
-├── main.py                 # Model prediction and orchestration
-├── src/
-│   ├── text_clean.py       # Preprocessing and cleaning functions
-│   └── prediction_visualization.py  # Sentiment scoring & plotting
-├── notebook/
-│   └── sentiment analysis.ipynb     # Data exploration & experiments
-├── twitter_validation.csv  # Sample CSV for testing
-├── requirements.txt        # Python dependencies
-├── pyproject.toml          # Optional: UV/Poetry support
-└── README.md               # This documentation
-📈 Future Enhancements
-Integrate live tweet scraping from Twitter API
-
-Improve model with transformer-based sentiment models (e.g., BERT)
-
-Deploy on Streamlit Cloud or Hugging Face Spaces
 
 🤝 Contributing
 Contributions are welcome!
 If you find bugs or want to suggest features, feel free to open an issue or submit a pull request.
+
 
